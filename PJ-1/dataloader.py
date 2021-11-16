@@ -7,7 +7,7 @@ class SSTDataSet(Dataset):
         with open(path, 'r', encoding='utf-8') as f:
             for line in f.readlines()[1:]:
                 raw_words, target = line.strip().split('\t')
-                # simple preprocessing
+                # 预处理
                 if raw_words.endswith("\""):
                     raw_words = raw_words[:-1]
                 if raw_words.startswith('"'):
