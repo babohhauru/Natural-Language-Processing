@@ -1,3 +1,3 @@
 # Natural-Language-Processing
 
-Solutions to the assignments of NLP module
+My solutions to the assignments of NLP module
